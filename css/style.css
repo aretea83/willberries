@@ -1,0 +1,287 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+.header {
+    padding: 15px 0;
+}
+.navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.navigation-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #939699;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+}
+.button {
+    padding: 10px 20px;
+    background: #4592FF;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.button-icon, .button-price {
+    margin-right: 10px;
+}
+.button-icon:last-child {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.slide {
+    padding: 90px 0 110px 0;
+    min-height: 568px;
+}
+.slide-1 {
+    background: #B4D1E0 url('../img/bg1.png') no-repeat top right 35%;
+    height: 570px;
+}
+.slide-2 {
+    background: #E3E2E3 url('../img/cart3.png') no-repeat top right 10%/contain;
+}
+.slide-3 {
+    background:#FFDEAD url('../img/bg1.png') top right 40%/contain no-repeat;
+}
+.label {
+    padding: 5px 12px;
+    background: #3DC47E;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 12px;
+}
+.slide-title {
+    color: #262D33;
+    font-size: 55px;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.slide-descr {
+    color: #4B5157;
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 335px;
+    margin-bottom: 40px;
+}
+.slider {
+    position: relative;
+}
+.slider-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    z-index: 9;
+}
+.slider-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.card {
+    height: 370px;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 60px 46px 80px 40px;
+}
+.card-1 {
+    background: #E3E2E3 url('../img/cart1.jpg') no-repeat top right 30%/cover;
+}
+.card-title {
+    color: #262D33;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: 'Roboto Slab', serif;
+    max-width: 222px;
+}
+.card-title.large {
+    max-width: 420px;
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0;
+    margin-top: 30px;
+}
+.card-text {
+    margin: 0;
+    color: #4B5157;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Lato;
+    max-width: 176px;
+    margin-bottom: 25px;
+}
+.card-text.large {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    max-width: 320px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.card-2 {
+    background: url('../img/cart2.jpg') top right/cover no-repeat;
+}
+.card-text-white {
+    color: #FFFFFF;
+}
+.card-title-white {
+    color: #FFFFFF;
+    max-width: 253px;
+    margin: 0;
+    margin-bottom: 13px;
+}
+.card-3 {
+    padding-top: 35px;
+    background: #E3E2E3 url('../img/cart3.png') no-repeat top right 10%/contain;
+}
+.card-4 {
+    background: #FF4F52 url('../img/cart4.png') top right/contain no-repeat;
+    padding: 35px 36px 0 26px;
+}
+.button-price {
+    color: #fff;
+    font-family: Lato;
+    font-weight: 900;
+}
+.section-title {
+    margin-top: 60px;
+    color: #262D33;
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+}
+.more {
+    text-decoration: none;
+    color: #262D33;
+    font-weight: 900;
+    font-size: 14px;
+    font-family: Lato;
+    padding: 10px;
+}
+.goods-card {
+    position: relative;
+    text-align: center;
+    padding: 30px 35px;
+    height: 370px;
+}
+.goods-card .label {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+}
+.goods-title {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #262D33;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+.goods-descr {
+    color: #4B5157;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 20px;
+}
+.goods-price {
+    margin-top: 30px;
+    color: #262D33;
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 900;
+}
+.footer {
+    background: #8F79D4;
+    padding: 45px 0 40px 0;
+    color:#fff;
+}
+.footer-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-menu-item:not(:last-child) {
+    padding-right: 40px;
+}
+.footer-menu-link {
+    color: #fff;
+    text-decoration: none;
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+}
+.social-link {
+    text-decoration: none;
+    margin-left: 15px;
+}
+.footer-text {
+    color: #E7D9FF;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 20px;
+}
+.footer-line {
+    opacity: 0,5;
+}
+.top-link {
+    text-decoration: none;
+    color:#fff;
+}
+.top-link-text {
+    margin-right: 15px;
+}
+.payment-logo {
+    vertical-align: middle;
+    margin-right: 18px;
+}
+
+@media (max-width: 1200px) {
+    .slide-1, .slide-2, .slide-3 {
+        background-size: cover;
+    }
+    .card-3 {
+        background-size: cover;
+    }
+}
+@media (max-width: 992px) {
+    .slider-nav {
+        display: none;
+    }
+    .card-3 {
+        background-size: cover;
+    }
+}
+@media (max-width: 576px) {
+    .slide-title {
+        font-size: 36px;
+        line-height: 1,4;
+    }
+    .card {
+        background-position: left;
+        min-height: 300px;
+        padding: 30px;
+    }
+    .card-4 {
+        background-position: top right;
+    }
+}
