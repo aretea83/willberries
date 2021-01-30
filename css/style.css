@@ -284,4 +284,7 @@ body {
     .card-4 {
         background-position: top right;
     }
+    .card-title.large {
+        font-size: 25px;
+    }
 }
