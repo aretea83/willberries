@@ -6,3 +6,5 @@
 ### Библиотеки:
 - Bootstrap v5
 - Swiper Slider JS
+
+https://aretea83.github.io/willberries/
